@@ -1,0 +1,41 @@
+{
+  "seq_len": 168,
+  "future_period_predict": 24,
+  "feature_names": [
+    "Global_active_power",
+    "Global_reactive_power",
+    "Voltage",
+    "Global_intensity",
+    "Sub_metering_1",
+    "Sub_metering_2",
+    "Sub_metering_3",
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "is_peak_hour",
+    "hour_sin",
+    "hour_cos",
+    "day_sin",
+    "day_cos",
+    "month_sin",
+    "month_cos",
+    "power_lag_1h",
+    "power_lag_24h",
+    "power_lag_168h",
+    "power_ma_24h",
+    "power_std_24h",
+    "power_ma_168h",
+    "sub1_ratio",
+    "sub2_ratio",
+    "sub3_ratio",
+    "power_factor"
+  ],
+  "training_stats": {
+    "total_samples": 33112,
+    "train_samples": 26322,
+    "valid_samples": 6456,
+    "features_count": 28
+  },
+  "anomaly_threshold": 0.855097903769936
+}
